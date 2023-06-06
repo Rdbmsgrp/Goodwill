@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from '../Images/image 1.png'
 const Login = () => {
   return (
     
@@ -60,7 +60,7 @@ const Login = () => {
     
 
         <div className="sm:block hidden w-1/2 align-middle"></div>
-        <img class="rounded-xl w-full" src="image 1.png" alt=''></img>
+        <img class="rounded-xl w-full" src={Image} alt=''></img>
       </div>
         
         </section>
